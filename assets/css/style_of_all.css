@@ -49,7 +49,7 @@ body.inicial{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #d1d1d1;
   display: block;
   transition: 300ms;
 }
@@ -61,7 +61,7 @@ body.inicial{
 .sidenav .closebtn::after{
   content: "";
   position: absolute;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #d1d1d1;
   border-radius: 50px;
   width: 21px;
   height: 20px;
@@ -70,22 +70,22 @@ body.inicial{
 }
 
 .sidenav .closebtn:hover::after{
-  animation: circulo 4s linear infinite;
-  border-color: black;
+  animation: circulo 1s linear infinite;
+  border-color: #ffffff;
 }
 
 
 .sidenav .closebtn:hover{
-  color: #000;
+  color: #ffffff;
 }
 
 .sidenav .closebtn{
   position: absolute;
-  top: 15px;
+  top: 12px;
   right: 0px;
   font-size: 16px;
   margin-left: 50px;
-  background-color: bisque;
+  background-color: #1a2d48;
   font-weight: bold;
 }
 
@@ -107,7 +107,6 @@ body.inicial{
   top: 0;
   left: 0;
   border-radius: 50px;
-  background-color: #fff;
 }
 
 /* Triagram for Heaven */
@@ -122,10 +121,10 @@ body.inicial{
   top: 0;
   width: 2em;
   height: 0.19em;
-  background: black;
+  background: #adabbc;
   box-shadow:
-    0 0.55em 0 0 black,
-    0 1em 0 0 black;
+    0 0.55em 0 0 #adabbc,
+    0 1em 0 0 #adabbc;
 }
 
 /* icons btn header */
@@ -147,16 +146,6 @@ body.inicial{
   height: auto;
   filter: grayscale(100%);
 }
-/* circulo do header */
-.header__circle{
-  position: absolute;
-  top: 8px;
-  right: -60px;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #fff;
-}
 
 /* Frase principal*/
 .body__frase-principal{
@@ -167,13 +156,13 @@ body.inicial{
 button.body__btn-principal{
   background-color: transparent;
   border: 1px solid #fff;
-  color: #fff;
+  color: #fff !important;
   transition: 400ms;
 }
 
 button.body__btn-principal:hover{
   background-color: #ffffff;
-  color: #000;
+  color: #000 !important;
 }
 
 /* videos */
