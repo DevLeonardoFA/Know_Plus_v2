@@ -1,0 +1,15 @@
+body{
+  background-image: url(../images/dev.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.register-form-box{
+  width: 260px;
+  height: 140px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
