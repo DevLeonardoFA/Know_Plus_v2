@@ -13,3 +13,16 @@ body{
   padding: 10px;
   border-radius: 20px;
 }
+
+.input-group button{
+  background-color: #434cb3;
+  color: #fff;
+}
+
+.cadastro_btn{
+  text-decoration: none;
+}
+
+.cadastro_btn button{
+  background-color: #507a50;
+}
